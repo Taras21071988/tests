@@ -184,6 +184,7 @@ body {
 	flex-direction: column;
 	color: var(--text-color-main);
 	transition: all 0.3s;
+	margin-bottom: 70px;
 }
 .card__top {
 	display: flex;
@@ -250,4 +251,13 @@ body {
 	.card__price {
 		color: var(--color-white);
 	}
+}
+.popular__link {
+	display: block;
+	text-align: center;
+	color: var(--color-white);
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 39px;
+	letter-spacing: 5%;
 }
