@@ -263,7 +263,7 @@ body {
 }
 .categories {
 	position: relative;
-	margin-bottom: 650px;
+	margin-bottom: 350px;
 }
 .categories__wrapper {
 	margin-top: 150px;
@@ -358,4 +358,44 @@ body {
 	position: absolute;
 	top: 1400px;
 	right: 30px;
+}
+.post {
+	padding: 20px 0;
+	background-image: url('img/postBg.png');
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 150px;
+}
+.post__wrapper {
+	display: flex;
+	gap: 100px;
+	align-items: center;
+}
+.post__content {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	max-width: 412px;
+}
+.post__title {
+	font-family: Georgia;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 55px;
+	max-width: 350px;
+}
+.post__text {
+	color: rgb(93, 93, 97);
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 34px;
+}
+.post__btn {
+	max-width: 220px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 5%;
 }
