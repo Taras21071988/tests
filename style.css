@@ -503,7 +503,6 @@ body {
 	align-items: left;
 	gap: 50px;
 	border-radius: 20px;
-
 }
 .subscribe__title {
 	color: var(--color-white);
@@ -555,4 +554,10 @@ body {
 	right: 0;
 	width: 400px;
 	height: 400px;
+}
+.subscribe__decor-img1 {
+	position: absolute;
+	bottom: -70px;
+	left: -70px;
+	z-index: 1000;
 }
