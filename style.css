@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-:root {
+
+@import url('style/footer.css');
+:root  {
 	--color-white: rgb(255, 255, 255);
 	--text-color-main: rgb(53, 53, 64);
 }
@@ -503,6 +505,18 @@ body {
 	align-items: left;
 	gap: 50px;
 	border-radius: 20px;
+}
+.sybscribe__wrapper::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 50px;
+
+	filter: blur(50px);
+	background: rgba(238, 79, 60, 0.3);
 }
 .subscribe__title {
 	color: var(--color-white);
