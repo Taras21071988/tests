@@ -413,6 +413,7 @@ body {
 .feedback__cards {
 	display: flex;
 	gap: 30px;
+	margin-bottom: 30px;
 }
 .feedback__card {
 	min-width: 570px;
@@ -422,6 +423,9 @@ body {
 	padding: 50px 35px;
 	gap: 15px;
 	cursor: pointer;
+	border-radius: 5px;
+	box-shadow: 0px 50px 70px 0px rgb(238, 238, 238);
+	background: rgb(255, 255, 255);
 }
 
 .feedback__card-img {
@@ -486,4 +490,69 @@ body {
 	background-color: rgb(248, 248, 248);
 	width: 10px;
 	height: 10px;
+}
+.subscribe {
+	margin-bottom: 182px;
+}
+.sybscribe__wrapper {
+	position: relative;
+	background-color: #ee4f3c;
+	padding: 85px 0 85px 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	gap: 50px;
+	border-radius: 20px;
+
+}
+.subscribe__title {
+	color: var(--color-white);
+	font-family: Georgia;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 55px;
+	max-width: 515px;
+}
+.subscribe__form {
+	position: relative;
+}
+.subscribe__input {
+	width: 770px;
+	padding: 23px 30px;
+	border-radius: 10px;
+	font-family: 'Montserrat', serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 25px;
+	letter-spacing: 5%;
+}
+.subscribe__input::placeholder {
+	color: rgb(93, 93, 97);
+	font-family: 'Montserrat', serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 25px;
+	letter-spacing: 5%;
+}
+.subscribe__btn {
+	position: absolute;
+	right: 285px;
+	top: 5px;
+	border-radius: 0px 10px 10px 0px;
+	width: 220px;
+	height: 60px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+}
+
+.subscribe__decor-img {
+	position: absolute;
+	z-index: 1000;
+	top: 0;
+	right: 0;
+	width: 400px;
+	height: 400px;
 }
