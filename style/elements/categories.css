@@ -6,7 +6,7 @@
 	margin-top: 150px;
 }
 .categories__title {
-	font-family: Georgia;
+	font-family: var(--fontFamily-second);
 	font-size: 48px;
 	font-weight: 700;
 	line-height: 55px;
@@ -41,7 +41,7 @@
 	margin-top: 30px;
 }
 .category__title {
-	font-family: Georgia;
+	font-family: var(--fontFamily-second);
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 23px;
@@ -62,7 +62,7 @@
 	gap: 50px;
 }
 .job__title {
-	font-family: Georgia;
+	font-family: var(--fontFamily-second);
 	font-size: 48px;
 	font-weight: 700;
 	line-height: 55px;

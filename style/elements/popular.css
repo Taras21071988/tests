@@ -18,7 +18,7 @@
 }
 .popular__title {
 	color: var(--color-white);
-	font-family: Georgia;
+	font-family: var(--fontFamily-second);
 	font-size: 48px;
 	font-weight: 700;
 	line-height: 75px;
@@ -57,7 +57,7 @@
 	letter-spacing: 5%;
 }
 .card__title {
-	font-family: Georgia;
+	font-family: var(--fontFamily-second);
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 27px;
@@ -83,7 +83,7 @@
 	background: rgb(245, 245, 245);
 	padding: 8px 21px 5px;
 	color: var(--text-color-second);
-	font-family: 'Montserrat', serif;
+	font-family: var(--fontFamily-main);
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 22px;

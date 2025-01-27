@@ -2,4 +2,7 @@
 	--color-white: rgb(255, 255, 255);
 	--text-color-main: rgb(53, 53, 64);
 	--text-color-second: rgb(93, 93, 97);
+	--bg--color-main: #e5e5e5;
+	--fontFamily-main: 'Montserrat', serif;
+	--fontFamily-second: Georgia;
 }

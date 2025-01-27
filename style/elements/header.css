@@ -1,6 +1,6 @@
 .header {
 	padding: 54px;
-	background: #e5e5e5;
+	background: var(--bg--color-main);
 }
 .header__wrapper {
 	display: flex;

@@ -25,7 +25,7 @@
 }
 .subscribe__title {
 	color: var(--color-white);
-	font-family: Georgia;
+	font-family: var(--fontFamily-second);
 	font-size: 48px;
 	font-weight: 700;
 	line-height: 55px;
@@ -38,7 +38,7 @@
 	width: 770px;
 	padding: 23px 30px;
 	border-radius: 10px;
-	font-family: 'Montserrat', serif;
+	font-family: var(--fontFamily-main);
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 25px;
@@ -46,7 +46,7 @@
 }
 .subscribe__input::placeholder {
 	color: var(--text-color-second);
-	font-family: 'Montserrat', serif;
+	font-family: var(--fontFamily-main);
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 25px;

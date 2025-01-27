@@ -19,7 +19,7 @@
 	max-width: 412px;
 }
 .post__title {
-	font-family: Georgia;
+	font-family: var(--fontFamily-second);
 	font-size: 48px;
 	font-weight: 700;
 	line-height: 55px;
