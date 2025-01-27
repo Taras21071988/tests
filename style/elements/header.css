@@ -1,0 +1,20 @@
+.header {
+	padding: 54px;
+	background: #e5e5e5;
+}
+.header__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav__items {
+	display: flex;
+	gap: 35px;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.nav__button {
+	width: 220px;
+	height: 70px;
+}

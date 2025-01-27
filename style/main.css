@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('presets.css');
+@import url('common.css');
+@import url('elements/header.css');
+@import url('elements/main.css');
+@import url('elements/popular.css');
+@import url('elements/categories.css');
+@import url('elements/post.css');
+@import url('elements/feedback.css');
+@import url('elements/subscribe.css');
+@import url('elements/footer.css');
