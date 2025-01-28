@@ -18,3 +18,80 @@
 	width: 220px;
 	height: 70px;
 }
+
+@media (max-width: 1024px) {
+	.header {
+		padding: 30px;
+	}
+	.logo__img {
+		width: 140px;
+	}
+	.nav__items {
+		gap: 15px;
+		font-size: 16px;
+	}
+	.nav__button {
+		width: 170px;
+		height: 50px;
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 768px) {
+	.header {
+		padding: 15px;
+	}
+	.logo__img {
+		width: 100px;
+	}
+	.nav__items {
+		gap: 10px;
+		font-size: 14px;
+	}
+	.nav__button {
+		width: 130px;
+		height: 40px;
+		font-size: 12px;
+	}
+}
+@media (max-width: 460px) {
+	.header {
+		padding: 10px;
+	}
+	.logo__img {
+		width: 80px;
+	}
+	.nav__items {
+		gap: 10px;
+		font-size: 10px;
+	}
+	.nav__button {
+		width: 100px;
+		height: 40px;
+		font-size: 10px;
+	}
+}
+@media (max-width: 360px) {
+	.header__wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.header {
+		padding: 10px;
+	}
+	.logo__img {
+		width: 80px;
+	}
+	.nav__items {
+		gap: 10px;
+		font-size: 10px;
+	}
+	.nav__button {
+		width: 120px;
+		height: 25px;
+		font-size: 8px;
+	}
+}
