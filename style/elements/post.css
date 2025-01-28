@@ -1,5 +1,5 @@
 .post {
-	padding: 20px 0;
+	padding: 20px 10px;
 	background-image: url('/img/postBg.png');
 	background-position: center;
 	background-size: cover;
@@ -37,4 +37,39 @@
 	font-weight: 700;
 	line-height: 30px;
 	letter-spacing: 5%;
+}
+
+@media (max-width: 1224px) {
+	.post__wrapper{
+		gap: 25px;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.post__img{
+		max-width: 520px;
+	}
+}
+@media (max-width: 1024px){
+	.post__img{
+		max-width: 400px;
+	}
+	 .post__title{
+		max-width: fit-content;
+	 }
+	.post__content{
+		align-items: center;
+	}
+}
+@media (max-width: 768px){
+	.post__title{
+		font-size: 36px;
+	}
+	.post__text{
+		font-size: 16px;
+	}
+}
+@media (max-width: 460px){
+	.post__img{
+		max-width: 320px;
+	}
 }
