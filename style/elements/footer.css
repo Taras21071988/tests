@@ -101,3 +101,25 @@
 	left: -200%;
 	top: 0;
 }
+@media (max-width: 1228px) {
+	.footer__decor-right,
+	.footer__decor-left {
+		display: none;
+	}
+	.footer__wrapper {
+		padding: 0 10px;
+	}
+}
+@media (max-width: 850px) {
+	.info__list {
+		margin-right: 10px;
+	}
+	.mr65 {
+		margin-right: 10px;
+	}
+}
+@media (max-width: 640px) {
+	.footer__content {
+		flex-direction: column;
+	}
+}
