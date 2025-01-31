@@ -17,8 +17,29 @@
 .nav__button {
 	width: 220px;
 	height: 70px;
+	transition: all 0.3s ease;
 }
-
+.nav__button:hover {
+	filter: brightness(90%);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.nav__link {
+	transition: all 0.3s ease;
+}
+.nav__link::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: rgb(238, 79, 60);
+	transition: all 0.3s;
+}
+.nav__link:hover::after {
+	width: 100%;
+}
+.nav__link:hover {
+	color: rgb(238, 79, 60);
+}
 @media (max-width: 1024px) {
 	.header {
 		padding: 30px;
